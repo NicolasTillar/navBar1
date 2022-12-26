@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 500;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+header .menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .menu li:hover{
+    transform: scale(1.1);
+}
+
+.btnRegister button{
+    border-radius: 5px;
+    background-color: rgb(94, 95, 245);
+    font-size: 500;
+    color:white;
+    padding: 8px 20px;
+    border: none;
+    margin-left: 20px;
+    
+}
+
+.btnRegister button:hover{
+    transform: scale(1.1);
+}
+
+.login:hover{
+    transform: scale(1.1);
+}
